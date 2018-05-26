@@ -1,0 +1,94 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+	padding: 3px;
+
+	&:focus {
+		color: $color__text-input-focus;
+	}
+}
+
+select {
+	border: 1px solid $color__border-input;
+}
+
+.form-section{
+    max-width: 1500px;
+    min-width: 350px;
+    margin:0 auto;
+    width:100%;
+}
+form{
+    width:36%;
+    margin:2% auto !important;
+}
+
+.comments-area form{
+    width: 100%;
+}
+.form-subtitle{
+    text-align: center;
+}
+
+label, input, textarea{
+	display: block;
+}
+
+textarea{
+	min-height: 8rem;
+}
+
+
+input, textarea{
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.send_reset{
+    margin: 2% auto !important;
+}
+
+ input[type="submit"], input[type="reset"]{
+	display: inline;
+	width: auto;
+	margin: auto;
+        padding:2%;
+}
+
+.msg{
+	transition: all 0.5s linear;
+        text-align: center;
+        padding-bottom: 2%;
+        font-weight: bold;
+}
+
+.msg-off{
+	color: $color__background-body;
+	opacity: 0;
+}
+
+.search-form-title{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-left: 2% !important;
+    margin-top: 0 !important;
+        
+}
+

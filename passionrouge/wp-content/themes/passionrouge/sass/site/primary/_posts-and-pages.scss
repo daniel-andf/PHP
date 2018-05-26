@@ -1,0 +1,718 @@
+//Header Design
+.entry-header{
+    width: 80%;
+    margin: auto;
+
+}
+
+#masthead{
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-image: linear-gradient(to right, #D4AF37, #AE8913, #D4AF37);
+    border-image-slice: 1;
+    width: 100%;
+    min-width: 350px;
+}
+
+.title-logos{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 1500px;
+    min-width: 350px;
+    margin:0 auto;
+    
+}
+
+
+.social-media-links,.search-logo{
+    font-size: 1.5rem;
+    flex-basis: 20%;
+}
+
+.search-logo{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top:0.5%;
+    justify-content: flex-end;
+    
+}
+
+.fa-search,.fa-bars{
+   cursor:pointer; 
+   
+}
+
+.fa-bars{
+    display: none;
+}
+
+.search-title{
+    text-align: center;
+}
+
+.site-branding{
+    margin: auto;
+    padding-top:1%;
+    flex-basis: 60%;
+}
+
+.site-branding img{
+    margin:0 auto;
+    display: block;
+}
+
+.site-branding p{
+    text-align: center;
+    max-width: 100%;
+}
+
+.entry-header img{
+    margin: 2% auto;
+    display: block;
+    border-top: 4px solid #473335;
+}
+
+.entry-header h1{
+    text-align: center;
+}
+
+.entry-meta{
+   font-weight: bold;
+   width: 45%;
+   margin:0 auto;
+   font-size: 1.2rem;
+}
+
+ .menu-item-232{
+     display: none;
+ }
+
+//End Header Design
+
+//General Design
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 auto;
+        width: 100%;
+        max-width: 1500px;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.entry-content div{
+    margin: 0 auto;
+
+}
+
+.content-area{
+    min-width: 350px;
+}
+a, a:visited{
+    text-decoration: none;
+    color: $color__text-main;
+}
+
+.content-area{
+    margin: 0 auto;
+}
+
+.figure{
+    width: 40%;
+    border-top: 4px solid $color__background-widget;
+    
+}
+
+.post, .header-post, .articles-post > .page{
+    
+    width: 100%;
+    padding: 2% 5%;
+    color:$color__background-body;
+    max-width: 1500px;
+    min-width: 350px;
+  
+  
+}
+
+.header-post,.post-navigation,.comments-area{
+    background: $color__background-subsection; 
+    max-width: 1500px;
+    min-width: 350px;
+    width: 100%;
+    margin:0 auto !important;
+}
+
+.articles-post .entry-meta{
+    width: 100%;
+}
+
+.articles-post > .page a, .error-404,.error-404 a{
+    color:$color__background-body;
+}
+
+.metaslider{
+    min-width: 350px;
+    margin-top: 0 !important;
+}
+
+
+
+//End General Design
+
+//Home Page Design
+
+.visit-winery{
+    text-align: center;
+    background: $color__background-subsection; 
+    max-width: 1500px;
+    padding: 0 ;
+    font-size:26px;
+    color:$color__background-body;
+    font-weight: bold;
+    font-family: $font__title;
+}
+
+.visit-winery a{
+    color:$color__background-body;
+}
+.description-page{
+    max-width: 1500px;
+    min-width: 350px;
+    clear:both;
+    position:relative;
+    display: block;
+    -webkit-filter: brightness(90%);
+
+}
+
+.description-page>p{
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 0;
+   line-height: 0;
+   width: 100%;
+   max-width: 1500px;
+   min-width: 350px;
+}
+
+.img-caption{
+    width:25%;
+    position:absolute;
+    top:5%;
+    right: 5%;
+    padding-top: 5%;
+    font-family:$font__main;
+    font-size:18px;
+  
+}
+
+img-caption p{
+    line-height: 1.5;
+   
+}
+
+.title-caption{
+     font-size:20px;
+     
+ }
+
+.subsection{
+    padding: 2% 0;
+    background: $color__background-subsection;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-figure {
+    width: 50%;
+    
+}
+
+.caption-wrap{
+    width: 40% !important;
+    left: 60% !important;
+    
+}
+.caption-wrap > .caption h2{
+    padding:2% 0;
+}
+
+.caption-wrap > .caption{
+    width:100%;
+    max-width: 550px;
+
+}
+
+ //End Home Page Design
+
+
+// Design Post Page
+
+
+
+.articles-post{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding-top: 2%;
+}
+
+.site-main > .post{
+    background: $color__background-subsection;
+    margin:0 auto;
+}
+
+.articles-post > .post,.articles-post > .page {
+   background: $color__background-post;
+   flex-basis: 31.333%;
+   margin:0 1% 2% 1%;
+   display:initial;
+   color:$color__background-body;
+}
+
+
+.articles-post > .post > .post-content,.articles-post > .page > .post-content{
+    border-top: 3px solid $color__background-widget;
+    padding-top:2%;
+}
+.articles-post > .post > .post-content .content-p{
+    padding:3% 0 0 0;
+    border-top: 2px solid $color__background-widget;
+    
+}
+
+.articles-post .entry-header, .articles-post .entry-footer{
+    width: 100%;
+}
+
+.articles-post .left-image, .articles-post .right-image{
+    display:none;
+}
+
+.articles-post .content-p{
+    flex-basis: 100% !important;
+}
+
+// End Design Post Page
+
+// Detailed Post Section
+.single-post-content{
+    display: flex;
+    flex-flow: row wrap;
+    padding:2% 0;
+}
+
+.single-post-content .left-image, .single-post-content .right-image{
+    flex-basis: 30%;
+    flex:1;
+}
+
+.single-post-content .content-p{
+    flex-basis: 36%;
+}
+
+.single-post-content .left-image{
+    align-self: center;
+    margin:0 2%;
+}
+
+.single-post-content .right-image{
+    align-self: flex-end;
+    margin:0 2%;
+    
+}
+
+.left-image,.right-image{
+    border-top: 4px solid $color__background-widget;
+}
+
+.comment-reply-title{
+    font-size: 1.5rem !important;
+}//End Detailed Post Section
+
+//Pages Design
+.post a{
+    color:$color__background-body;
+}
+
+.post-42,.post-100,.post-44,.post-40 {
+    color:$color__background-body;
+    background: $color__background-subsection;
+}
+
+.post-100 .left-image, post-100 .right-image{
+    align-self: center !important;
+}
+
+.wine-section{
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px double $color__background-widget;
+    margin: 1% !important;
+}
+
+.wine-section > .section-figure{
+    border: 5px double $color__menu-bgc;
+    width:40%;
+    margin:5%;
+    padding: 1%;
+    
+}
+
+.wine-section .figure{
+    border:0;
+}
+.wine-h3{
+    text-align: center;
+}
+
+.subdesc{
+    width:60%;
+}
+
+.content-about{
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+.about-us{
+    flex-basis: 50%;
+    margin: 2% auto !important;
+    font-size: 18px;
+    max-width: 550px;
+    
+}
+
+.left-img-about,.right-img-about{
+    flex-basis: 25%;
+}
+
+.left-img-about img,.right-img-about img{
+    border-top:4px solid $color__background-widget;
+}
+
+.wines-links{
+    text-align: center;
+}
+.wines-links a{
+    margin:2%;
+    color:$color__background-body;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.search-result, .error-404{
+    background: $color__background-subsection;
+    width: 100%;
+    max-width: 1500px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding:2% 5%;
+}   
+
+.search-form-title{
+    right: 0;
+    display: initial;
+    transition: position 1s linear;
+   
+}
+.search-off{
+    right: 5000px;
+    display: none;
+    position: absolute;
+ }
+ 
+
+
+
+//End Pages Design
+
+
+// Footer Design of all pages and sections
+
+.site-footer{
+    min-width: 350px;
+}
+
+.entry-footer{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 38%;
+       
+}
+
+.articles-post .post-content .entry-footer span{
+    padding: 2% 0;
+}
+
+.post-content .entry-footer span{
+    padding: 2%;
+}
+.entry-footer,.nav-links,.comment-respond{
+    margin: 0 auto;
+    color: $color__background-body;
+}
+
+.nav-links,.comment-respond{
+    width: 36% !important;
+    padding: 1% 1.5%;
+}
+
+.nav-links{
+    padding-bottom:2%;
+}
+
+
+.nav-links a, .comment-respond a{
+    color: $color__background-body;
+    font-weight: bolder;
+   
+}
+.tagcloud{
+    width: 100%;
+    min-width: 350px;
+}
+
+.tags-links a,.tagcloud a{
+    background-color: $color__background-tag;
+    padding:1%;
+}
+
+// End Footer Design of all pages and sections
+
+
+@media screen and (max-width:800px){
+    
+    body{
+         position:relative;
+    }
+    
+    .main-navigation{
+        /*width: 40%;*/
+        margin: 0 !important;
+        min-width: 350px;
+   
+    }
+    
+    .fa-bars{
+        display: initial;
+        position: absolute;
+        top:30px;
+        left:0;
+    }
+    
+    .primary-menu{
+        flex-flow: column wrap !important;
+        min-width: 0 !important;
+        position: absolute;
+        top:5px;
+        left:0;
+        background-color:$color__menu-bgc;
+        /*width: 40% !important;*/
+        padding:2% 0;
+        transition: all 1s linear;
+        z-index: 99999;
+        height: 50vh;
+       min-width: 350px;
+        
+    }
+    
+    .menu-item-232{
+         display: initial;
+         font-size:8px;
+    }
+    
+    .menu-off{
+        left:-1000px;
+    }
+    
+    #primary-menu li{
+        text-align: center;
+    }
+    .site-branding img{
+        width: 60%;
+    }
+    
+    .site-description,{
+        font-size: 12px;
+    }
+    
+    .social-media-links.search-logo{
+        font-size: 1.2rem;
+    }
+   
+    .nav-menu{
+        min-width: 600px !important;
+        font-size: 0.8rem;
+    }
+    
+    .caption-wrap{
+        left:0 !important;
+        width:100% !important;
+        font-size: 1rem;
+     
+    }
+    .caption{
+        max-width: 80% !important;
+        margin:0 !important;
+        padding: 0 !important;
+        
+    }
+    
+    .caption, .img-caption,.visit-winery,.widget-area,.site-info,.about-us,.subdesc,.content-p,.posted-on,.entry-footer,
+    .single-post-content,.nav-links,.logged-in-as,.byline,.search-logo,.social-media-links,.fa{
+        font-size: 0.8rem !important;
+    }
+    
+    .wines-links a,.comment-reply-title{
+        font-size:1rem !important;
+    }
+    
+   .about-us,.header-post{
+        padding:2%;
+    }
+    
+    .articles-post > .post, .articles-post > .page{
+        flex-basis: 48% !important;
+    }
+    
+    .wine-section > .section-figure{
+        margin:2.5%;
+        width:45%;
+    }
+    .subdesc{
+        width: 80%;
+    }
+    
+    #metaslider_172 .caption{
+        text-align: center !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+        
+    }
+    
+    .widget-area, .error-widget{
+        flex-flow: row wrap;
+    }
+    
+    .widget,.error-widget .widget{
+        flex-basis:48% !important;
+        width: 98% !important;
+    }
+    
+    form{
+        width: 56% !important;
+    }
+    
+    .comment-form{
+        width: 100% !important;
+    }
+    
+    a[title="3 topics"],a[title="2 topics"]{
+        font-size: 1.2rem !important;
+    }
+    
+}
+
+
+@media screen and (max-width:650px){
+    
+    .site-description{
+        font-size: 16px;
+    }
+    .caption, .img-caption,.visit-winery,.widget-area,.site-info,.about-us,.subdesc,.content-p,.posted-on,.entry-footer,
+    .single-post-content,.nav-links,.logged-in-as,.byline,.search-logo,.social-media-links,.fa{
+        font-size: 16px !important;
+    }
+    
+    .caption{
+        line-height: 1.2;
+    }
+    
+    .content-about,.single-post-content,.error-widget{
+        flex-flow: column wrap;
+        
+    }
+    
+    .left-image,.right-image,.left-img-about,.right-img-about{
+        margin:5% 0 !important ;
+    }
+    .about-us,.content-p,.metaslider-172{
+        order:-1;
+    }
+    
+    .content-p,.about-us{
+        width: 95% !important;
+        margin: 0 auto;
+    }
+    
+    .section-figure{
+        width: 95% !important;
+        
+    }
+    
+    form{
+        width: 66% !important;
+        font-size: 0.6rem;
+    }
+    
+    input,.comment-respond input{
+        padding: 0 !important;
+        font-size: 0.6rem !important;
+    }
+    
+    input[type="submit"], input[type="reset"]{
+        padding:2% !important;
+    }
+    
+    .comment-form{
+        width: 100% !important;
+    }
+    
+    .articles-post > .post, .articles-post > .page{
+        flex-basis: 98% !important;
+    }
+    
+    .widget,.error-widget .widget{
+        flex-basis: 98% !important;
+        width: 98% !important;
+
+      
+    }
+   
+    .entry-footer,.nav-links,.comment-respond{
+        width: 90% !important;
+    }
+}
+
+
+@media screen and (max-width:500px){
+
+    .img-caption{
+        width: 45%;
+    }
+
+}

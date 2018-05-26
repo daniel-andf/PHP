@@ -1,0 +1,50 @@
+.widget-area,.error-widget{
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+
+.widget-area{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("http://localhost/passionrouge/wp-content/uploads/2017/03/barrel-898328_1920.jpg");
+}
+
+.widget{
+    width: 25%;
+    padding: 0 2%;
+}
+
+.error-widget .widget{
+    padding: 0 !important;
+    width: 33.333% !important;
+} 
+
+.widget h2{
+    font-family: $font__title;
+}
+
+.widget li{
+    font-family: $font__main;
+}
+
+.site-footer {
+    clear: both;
+    width: $size__site-main;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    font-family: $font__title;
+}
+
+.site-info{
+    background-color:$color__background-footer;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
